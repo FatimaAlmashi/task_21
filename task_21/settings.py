@@ -25,7 +25,7 @@ SECRET_KEY = 'tnvhv(22@t1#1!f9$&6gl#0-&9(symuxb$=x_2h6zkg*tdi4iy'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', '138.68.65.5']
+ALLOWED_HOSTS = ['127.0.0.1', '104.248.29.231']
 
 
 # Application definition
@@ -80,7 +80,6 @@ WSGI_APPLICATION = 'task_21.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
-
 if DEBUG:
 	DATABASES = {
 		'default': {
@@ -90,16 +89,15 @@ if DEBUG:
 	}
 else:
 	DATABASES = {
-	    'default': {
-	        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-	        'NAME': 'django',
-	        'USER': 'django',
-	        'PASSWORD': '6b0ce6cdb8c53656431746d11af090c2',
-	        'HOST': 'localhost',
-	        'PORT': '',
-	    }
+		'default': {
+			'ENGINE': 'django.db.backends.postgresql_psycopg2',
+			'NAME': 'django',
+			'USER': 'django',
+			'PASSWORD': '6a14aadef0f58bb854681265df2533e4',
+			'HOST': 'localhost',
+			'PORT': 
+		}
 	}
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
