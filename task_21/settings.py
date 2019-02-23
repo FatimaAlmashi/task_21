@@ -95,7 +95,7 @@ else:
 			'USER': 'django',
 			'PASSWORD': '6a14aadef0f58bb854681265df2533e4',
 			'HOST': 'localhost',
-			'PORT': 
+			'PORT': ''
 		}
 	}
 
